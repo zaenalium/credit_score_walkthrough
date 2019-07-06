@@ -1,0 +1,39 @@
+--- 
+title: "A Complete Walkthrough of Credit Scoring in R and Python"
+author: "Ahmad Zaenal"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This book contains complete walkthrough of how to create a Credit Scoring using R and Python from scratch. This book also will explain in detail how to create a credit score with codes and examples"
+---
+
+# Preface {-}
+
+I write this book to share to everyone who interested in credit score or people who want to learn how to create credit score or everyone in related field such as data science, data analyst, statistician, banker, etc. In this book cover guide as well as step by step to create traditional credit score. 
+
+This book are build under r package **bookdown**, the source code are available in my github (https://github.com/zaenalium/credit_score_walkthrough). I welcome to to every comment or any correction if necesearry. I am really gratefull to anyone who correct my typo or adding the content to this book.
+
+
+# Acknowledge {-}
+
+For roughly 3 years I am working in the Indonesian Credit Bureau in Research and Development division, it is my first company that I worked for. I worked in that company to create a credit bureau score using National Indonesian Credit Data from all banking, finance company etc.  Working in this company give me a lot of experices regarding banking, finance, and more important experience for a fresh graduate like me is attitude as well as how to collaborate each other.
+
+Thanks to my Mother and my Father who always support me in any situations, also to my beloved brother and sister. Thanks to  everyone in PEFINDO Credit Bureau (IdScore) for always cheer me up and create a good work environment, special thanks to my best friend Ghufran Rahmat Putra who always remind me to always do the right things first, also special thanks to my mentor and my supervisor Muhammad Rifqi who thought me many things.
+
+
+# Prerequisites {-}
+
+You need to install R and Rstudio as well as python.
+
+You can download R and R studio here :
+
+ * R : https://cran.r-project.org/
+ * Rstudio : https://www.rstudio.com/
+ 
+If you using python you only need to install Anaconda <https://www.anaconda.com/distribution/>, if you familiar with anaconda you can just download anaconda and you can install R and Rstudio through it.
+
