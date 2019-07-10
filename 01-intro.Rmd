@@ -1,22 +1,27 @@
 # Introduction {#intro}
 
-Although currently many machine learning model are used in credit score development, 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+Recent technological advances as well as cheap hardware help people store any data that increased everyday with efficient Currently data are widely available on the internet, you can download data any data in anytime. That is why the data science or related field growth very popular. One of sector that can not be sapareted with data is banking, almost every bank store the banking data in their server. Banking data are valuable especially credit data, it can be used to build many usefull report such as bachmarkin report, customer report and predict the payment behavour of their customer in the form of credit score model.
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+- Credit Score
+- Experience in this field
+- Why Using R
+- Why Using Python
+- Personal comment related those two tools
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+## Why should read this book
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+This book aim at audience
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+## What will you get out of this book
+- There are widely available Credit book
+- But how we can do that with R and Python
+- How easly using R and Python to build an credit score model
+- Disclose secret method
+- Add current research
+- R and Python Library
+- Efficient programming
+- I am using python3
+
+## Recommended Reading

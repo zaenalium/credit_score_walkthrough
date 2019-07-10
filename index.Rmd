@@ -16,13 +16,13 @@ description: "This book contains complete walkthrough of how to create a Credit 
 
 Nowadays almost every bank, financial institution, financial technologi, and even pawnshop company  using the credit scoring. It very useful and very efficient to see if whether person worthy or not to be given a credit facility. The credit scoring model are based on the statistical model and it was trasform to a good looking score instead of probability like usually the model does. 
 
-The credit scoring model are really easly to build but we need to extra carefull to analyze data. Expert usualy using SAS to build the model, I realy wanted to use SAS but the licence cost is too damn high for me. Although SAS publish the university edition but the feature is limited.
+The credit scoring model are really easly to build but we need to extra carefull to analyze data. Expert usualy using SAS to build the model, I realy wanted to use SAS but the licence cost is too damn high. Although SAS release the university edition but the feature is limited and far from the paid one.
  
-I write this book to share to everyone who interested in traditional credit score or people who want to learn how to create credit score or everyone in related field such as data science, data analyst, statistician, banker, etc. In this book cover guide as well as step by step to create traditional credit score using the freeware software i.e. R and Python.
+I write this book to share to everyone who interested in traditional credit score or people who want to learn how to create credit score or everyone in related field such as data science, data analyst, statistician, banker, etc. In this book cover guide as well as step by step to create traditional credit score using the freeware i.e. R and Python.
 
 In this book I only explain the traditional credit scoring, and I will not explain the how to make credit scoring model using machine learning or deep learning. Because to be honest, I don't know how build a good looking and explainable credit scoring model using machine learning or deep learning model like the traditional one. If you can, please tell me.
 
-This book is free to use, it was under licence [https://creativecommons.org/licenses/by-sa/4.0/](creative commons Attribution Share Alike 4.0). Also, this book was built under r package **bookdown**, the source code are available in my github (https://github.com/zaenalium/credit_score_walkthrough). I am very welcome to to every comment or any correction if necesearry. I am really gratefull to anyone who correct my typo or adding the content to this book.
+This book is free to use, it was under licence [creative commons Attribution Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Also, this book was built under r package **bookdown**, the source code are available in my github (https://github.com/zaenalium/credit_score_walkthrough). I am very welcome to to every comment or any correction if necesearry. I am really gratefull to anyone who correct my typo or adding the content to this book.
 
 
 # Acknowledge {-}
@@ -38,12 +38,10 @@ Thanks to  everyone in PEFINDO Credit Bureau (IdScore) for always cheer me up an
 
 I assume you already familiar using R or Python for data analysis, because I will not explain the code in detail. If you need to learn R or Python you can enter course in datacamp, coursera, edx and etc. 
 
-You need to install R and Rstudio as well as python.
-
-You can download R and R studio here :
+If you an R user, You need to install R and Rstudio. You can download R and R studio here :
 
  * R : https://cran.r-project.org
  * Rstudio : https://www.rstudio.com
  
-If you using python you only need to install Anaconda <https://www.anaconda.com/distribution>, if you familiar with anaconda you can just download anaconda and you can install R and Rstudio through it. 
+If you using python you only need to install Anaconda <https://www.anaconda.com/distribution>, if you familiar with anaconda you can just download it, and you can install R and Rstudio through it. 
 

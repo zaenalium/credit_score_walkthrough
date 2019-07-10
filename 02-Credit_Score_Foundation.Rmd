@@ -1,0 +1,30 @@
+# (PART) First Stage {-}
+
+# Gathering Data
+
+Data Gathering is the first step to create a statistical model. As the analyst we have to collect the information that available in the data source, find the appropriate definition of *good* and *bad* as well as gather the information that possibly become the factor of the bad customer. Usually data are stored in the relational database (SQL) or big data platform (Hadoop) or excel file, etc. You have to gather it become one single table thus it will be easly to analyze. For me at gathering data process, I have  a lot of work to do because the dataset is spread accross SQL database or even cluster. To get the data I have to aggregate some of variabel that possibly become the factor of the bad customer eg. we want to know how many contract that open in the last 6 month. I have to aggregate more that 200 variables, thefore I spent 3-5 days to do that.
+
+The main things that we have to do before using the data is:
+
+* good and bad definition
+* gather the factor (independent) variable
+* find the approprai
+
+```{r test run rode, echo=FALSE}
+library(reticulate)
+use_python("/home/zaenal/anaconda3/bin/python")
+```
+
+**```Python code```**
+```{python}
+import pandas as pd
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+
+
+
+```
+
+# Sampling
+
