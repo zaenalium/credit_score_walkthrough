@@ -8,7 +8,8 @@ The main things that we have to do before using the data is:
 
 * good and bad definition
 * gather the factor (independent) variable
-* find the approprai
+* find the appropriate variables
+* 
 
 ```{r test run rode, echo=FALSE}
 library(reticulate)
