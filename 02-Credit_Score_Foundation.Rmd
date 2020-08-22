@@ -1,8 +1,20 @@
 # (PART) First Stage {-}
 
-# Gathering Data
+# Preparing data and sampling {#gather}
 
-Data Gathering is the first step to create a statistical model. As a good analyst we have to collect the information that available in the data source, find the appropriate definition of *good* and *bad* as well as gather the information that possibly become the factor of the bad customer. Usually data are stored in the relational database (SQL) or big data platform (Hadoop) or excel file, etc. You have to gather it become one single table thus it will be easly to analyze. For me at gathering data process, I have  a lot of work to do because the dataset is spread accross many table in SQL database. To get the data I have to aggregate some of variabel that possibly become the factor of the bad customer eg. we want to know how many contract that open in the last 6 month. I have to aggregate more that 200 variables, thefore I spent 3-5 days to do that.
+Preparing data is the first step to create a statistical model. We need to prepare the data and compile into one datasets, thus we can easily analyse it. Every institution has different data situation. Some of them store the data tidly in a SQL database or in the big data platform like Hadoop. But, some instution stored data spread in many place and in different format such as SQL, csv, txt, excel, etc. In this case we need a lot of time to gather them and compile them into one datasets. This data preparation is usually be done by the data engineer team, but I am sure data scientist or data analyst can do this job easily if they are given access to the data. 
+
+## What data that we have? can we use it?
+
+Before we gather the data we need to review the availability of data itself. If the data is available, then the question is it reliable? and is the clean enough to be used? and is the sample size suffice to create credit scoring model?. Sometimes this question can be a bottleneck. Because data availability and reliability is very essentials to create a model. 
+
+
+
+
+
+
+
+To get the data I have to aggregate some of variabel that possibly become the factor of the bad customer eg. we want to know how many contract that open in the last 6 month. I have to aggregate more that 200 variables, thefore I spent 3-5 days to do that.
 
 The main things that we have to do before using the data is:
 
@@ -16,16 +28,26 @@ library(reticulate)
 use_python("/home/zaenal/anaconda3/bin/python")
 ```
 
+
+**```R Code```**
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = np.array([1, 2, 3, 4, 5])
+
+```
+
+
 **```Python code```**
 ```{python}
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 a = np.array([1, 2, 3, 4, 5])
 
-
-
 ```
 
-# Sampling
 

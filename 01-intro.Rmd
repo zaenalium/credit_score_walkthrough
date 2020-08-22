@@ -1,27 +1,32 @@
-# Introduction {#intro}
+# Introduction {-}
 
-Recent technological advances as well as cheap hardware help people store any data that increased everyday with efficient Currently data are widely available on the internet, you can download data any data in anytime. That is why the data science or related field growth very popular. One of sector that can not be sapareted with data is banking, almost every bank store the banking data in their server. Banking data are valuable especially credit data, it can be used to build many usefull report such as bachmarkin report, customer report and predict the payment behavour of their customer in the form of credit score model.
+Recent technology as well as cheap hardware help people store any data that increased everyday with efficient. Currently, data is everywhere the bank transaction data, telecommunication data, and even our online transaction data is safety stored in a e-commerce server. We can also find the data through internet, there are widely available free data and download it in anytime. Because of that,the data science or related field growth very quick.
 
-- Credit Score
-- Experience in this field
-- Why Using R
-- Why Using Python
-- Personal comment related those two tools
+Presently, almost every company or goverment institution are use data for their decision making strategy. Banking and financial institution are one of sector that already implement the data for decision making strategy. Since banking and financial institution always store their data in their server, then they can use it not just only for archive but for something more valueable and we call it "data analysis". 
 
+Banking and financial institution data are valuable especially the credit data. One of important model that can be built from it is credit scoring report. It very usefull to predict whether the custumer can paid their loan or not. Because it will, decrease cost for survey and make the credit decision quicker. Not only, credit scoring model that can be built from this data but we can also create bachmarking report, customer report, monitoring report, etc.
 
-## Why should read this book
+Many statistical aplication can easily build the credit scoring model. However, many of them are paid aplication and if we want to buy the licence, the cost is extremely expensive. Therefore, R and Python come up with the solution. Since it free and the package for data analysis is widely available, we can you it as you like. Those two softwares are very powerfull and flexible for doing data science. I personaly more comfortable using R but I'll try to create any code in this book also with python code, thus people who comfortable using python can understand it.
 
-This book aim at audience
+In this book I will explain how to create a credit scoring model using R and Python. With this book I hope I can help anyone who struggle learning R or Python for creating scoring model.
 
 
-## What will you get out of this book
-- There are widely available Credit book
-- But how we can do that with R and Python
-- How easly using R and Python to build an credit score model
-- Disclose secret method
-- Add current research
-- R and Python Library
-- Efficient programming
-- I am using python3
+## Who should read this book {-}
 
-## Recommended Reading
+This book aim at everyone who want to learn how to create scoring model using R and python.
+
+
+## What will you get out of this book {-}
+
+In this book you will get step by step how to create a credit score, and you will also get the explanation of the R and python output. In this book also I will disclose as many as secret technique that I know .Thus, in the end you will know the concept of credit scoring not only the technique and code.
+
+In this book I will also provide how to organize your code to get the effective code. This will helpfull if you have huge data. Therefore, you will not waste too many times waiting for the code finish to execute.
+
+The *data.table* and *tidyverse* are the R packages that I use for data wrangling and data visualization, while for the scorecard development I use *scorecard* package . Since I am beginner in python, I am very dependent with *pandas* and *numpy* package, whereas for the scorecard development I use *scorecardpy* package. And the python version that I am using is python 3.7. And for R user I recommend you to have R with version at least 3.5.0 or above.
+
+## Recommended Reading {-}
+
+- **Credit Risk Scorecards: Developing and Implementing Intelligent Credit Scoring** by Naeem Siddiqi
+- **R for Data Science** by Garrett Grolemund and Hadley wickham
+- **Python Data Science Handbook** by Jake VanderPlas
+
